@@ -27,7 +27,7 @@ pipeline {
                     repository: 'jenkins',
                     credentialsId: 'nexus_login',
                     artifacts: [
-                        [artifactId: my-app,
+                        [artifactId: 'my-app',
                          classifier: '',
                          file: 'target/my-app-1.0-SNAPSHOT.jar',
                          type: 'jar']
